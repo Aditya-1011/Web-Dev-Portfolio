@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+.sidebar{
+    background-color: #FFDEB9;
+    width: 15vw;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}.sidebar nav li a{
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar nav{
+    width: 10vw;
+    padding: 40px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 32px 0px;
+}
+.main{
+    background-color: yellow;
+    width: 85vw;
+}
+.container{
+    display: flex;
+}
+.info{
+    background-color: plum;
+    height: 70vh;
+    width: 70vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.devpic img {
+    height: 70vh;
+    width: 299px;
+}
+.devInfo{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.hello{
+    font-size: 50px;
+
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+.about{
+    font-size: 35px;
+
+}
+.know{
+    font-family: 'Roboto', sans-serif;
+}
+.buttons button{
+    border-radius: 15px;
+    padding: 6px;
+    margin: 9px;
+    background-color: #62CDFF;
+    color: white;
+    
+    cursor: pointer;
+
+
+}
+.buttons button:hover{
+    color: #62CDFF;
+    background-color: white;
+}
